@@ -1,0 +1,44 @@
+{
+  "user" : {
+            "patient_name" :"Mike Ross",
+            "profilePicURL" : "/images/profile_icon.png",
+            "patient_id" : "16",
+            "phone" : "9023123543",
+            "email" : "mike.ross@gmail.com",
+            "address" : "New York"
+          },
+  "appoinments" : [
+                      {
+                          "created_at" : "2015-04-21T10:44:51-06:00",
+                          "end" : "2015-04-24T07:30:00-06:00",
+                          "id" : "695",
+                          "start" : "2015-04-24T07:00:00-06:00",
+                          "updated_at" : "2015-04-21T10:44:51-06:00",
+                          "Symptoms" : "Cold",
+                          "physician_profile" : {
+                                                  "id" : "14",
+                                                  "name" : "Gregory House",
+                                                  "profilePicURL" : "/images/DR-avatar.png",
+                                                  "speciality" : "-",
+                                                  "edication" : "MBBS",
+                                                  "phone" : "9022437612"
+                                                }
+                        },
+                        {
+                            "created_at" : "2015-04-21T10:44:51-06:00",
+                            "end" : "2015-04-24T07:30:00-06:00",
+                            "id" : "696",
+                            "start" : "2015-04-24T07:00:00-06:00",
+                            "updated_at" : "2015-04-21T10:44:51-06:00",
+                            "Symptoms" : "Headache",
+                            "physician_profile" : {
+                                                    "id" : "20",
+                                                    "name" : "Mchael Bravo",
+                                                    "profilePicURL" : "/images/DR-avatar.png",
+                                                    "speciality" : "Neurosurgeon",
+                                                    "edication" : "MD",
+                                                    "phone" : "8380548732"
+                                                  }
+                          }
+                    ]
+}
